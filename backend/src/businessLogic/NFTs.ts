@@ -1,5 +1,5 @@
-import { NFTsAccess } from './NFTsAcess'
-import { AttachmentUtils } from './attachmentUtils';
+import { NFTsAccess } from '../dataLayer/NFTsAcess'
+import { AttachmentUtils } from '../helpers/attachmentUtils';
 import { NFTItem } from '../models/NFTItem'
 import { CreateNFTRequest } from '../requests/CreateNFTRequest'
 import { UpdateNFTRequest } from '../requests/UpdateNFTRequest'

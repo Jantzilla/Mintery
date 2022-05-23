@@ -4,7 +4,7 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda'
 import * as middy from 'middy'
 import { cors } from 'middy/middlewares'
 
-import { getNFTsForUser as getNFTsForUser } from '../../helpers/NFTs'
+import { getNFTsForUser as getNFTsForUser } from '../../businessLogic/NFTs'
 import { getUserId } from '../utils';
 
 export const handler = middy(

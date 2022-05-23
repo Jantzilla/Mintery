@@ -4,7 +4,7 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda'
 import * as middy from 'middy'
 import { cors, httpErrorHandler } from 'middy/middlewares'
 
-import { updateNFT as updateNFT } from '../../helpers/NFTs'
+import { updateNFT as updateNFT } from '../../businessLogic/NFTs'
 import { UpdateNFTRequest } from '../../requests/UpdateNFTRequest'
 import { getUserId } from '../utils'
 
